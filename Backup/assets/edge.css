@@ -1,0 +1,542 @@
+/*!
+ * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+body .page {
+  overflow-x: hidden;
+  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.page .text-muted {
+  color: #777;
+}
+
+.page .text-primary {
+  color: #fed136;
+}
+
+.page p {
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.page p.large {
+  font-size: 16px;
+}
+
+.page a,
+.page a:hover,
+.page a:focus,
+.page a:active,
+.page a.active {
+  outline: 0;
+}
+
+.page a {
+  color: #fed136;
+}
+
+.page a:hover,
+.page a:focus,
+.page a:active,
+.page a.active {
+  /*color: #fec503;*/
+  opacity: 0.95;
+}
+
+.page h1,
+.page h2,
+.page h3,
+.page h4,
+.page h5,
+.page h6 {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+}
+
+.page .img-centered {
+  margin: 0 auto;
+}
+
+.page .bg-light-gray {
+  background-color: #f7f7f7;
+}
+
+.page .bg-darkest-gray {
+  background-color: #222;
+}
+
+.page .btn-primary {
+  border-color: #fed136;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: #fff;
+  background-color: #fed136;
+}
+
+.page .btn-primary:hover,
+.page .btn-primary:focus,
+.page .btn-primary:active,
+.page .btn-primary.active,
+.page .open .dropdown-toggle.btn-primary {
+  /*border-color: #f6bf01;*/
+  color: #fff;
+  /*background-color: #fec503;*/
+  opacity: 0.95;
+}
+
+.page .btn-primary:active,
+.page .btn-primary.active,
+.page .open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+
+.page .btn-primary.disabled,
+.page .btn-primary[disabled],
+.page fieldset[disabled] .btn-primary,
+.page .btn-primary.disabled:hover,
+.page .btn-primary[disabled]:hover,
+.page fieldset[disabled] .btn-primary:hover,
+.page .btn-primary.disabled:focus,
+.page .btn-primary[disabled]:focus,
+.page fieldset[disabled] .btn-primary:focus,
+.page .btn-primary.disabled:active,
+.page .btn-primary[disabled]:active,
+.page fieldset[disabled] .btn-primary:active,
+.page .btn-primary.disabled.active,
+.page .btn-primary[disabled].active,
+.page fieldset[disabled] .btn-primary.active {
+  border-color: #fed136;
+  background-color: #fed136;
+}
+
+.page .btn-primary .badge {
+  color: #fed136;
+  background-color: #fff;
+}
+
+.page .btn-xl {
+  padding: 20px 40px;
+  border-color: #fed136;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #fed136;
+}
+
+.page .btn-xl:hover,
+.page .btn-xl:focus,
+.page .btn-xl:active,
+.page .btn-xl.active,
+.page .open .dropdown-toggle.btn-xl {
+  /*border-color: #f6bf01;*/
+  color: #fff;
+  /*background-color: #fec503;*/
+  opacity: 0.95;
+}
+
+.page .btn-xl:active,
+.page .btn-xl.active,
+.page .open .dropdown-toggle.btn-xl {
+  background-image: none;
+}
+
+.page .btn-xl.disabled,
+.page .btn-xl[disabled],
+.page fieldset[disabled] .btn-xl,
+.page .btn-xl.disabled:hover,
+.page .btn-xl[disabled]:hover,
+.page fieldset[disabled] .btn-xl:hover,
+.page .btn-xl.disabled:focus,
+.page .btn-xl[disabled]:focus,
+.page fieldset[disabled] .btn-xl:focus,
+.page .btn-xl.disabled:active,
+.page .btn-xl[disabled]:active,
+.page fieldset[disabled] .btn-xl:active,
+.page .btn-xl.disabled.active,
+.page .btn-xl[disabled].active,
+.page fieldset[disabled] .btn-xl.active {
+  border-color: #fed136;
+  background-color: #fed136;
+}
+
+.page .btn-xl .badge {
+  color: #fed136;
+  background-color: #fff;
+}
+
+.page .navbar-default {
+  border-color: transparent;
+  /*background-color: #222;*/
+}
+
+.page .navbar-default .navbar-brand {
+  font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+  color: #fed136;
+}
+
+.page .navbar-default .navbar-brand:hover,
+.page .navbar-default .navbar-brand:focus,
+.page .navbar-default .navbar-brand:active,
+.page .navbar-default .navbar-brand.active {
+  /*color: #fec503;*/
+  opacity: 0.95;
+}
+
+.page .navbar-default .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+
+.page .navbar-default .navbar-toggle {
+  border-color: #fed136;
+  background-color: #fed136;
+}
+
+.page .navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.page .navbar-default .navbar-toggle:hover,
+.page .navbar-default .navbar-toggle:focus {
+  background-color: #fed136;
+}
+
+.page .navbar-default .nav li a {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.page .navbar-default .nav li a:hover,
+.page .navbar-default .nav li a:focus {
+  outline: 0;
+  color: #fed136;
+}
+
+.page .navbar-default .navbar-nav > .active > a {
+  border-radius: 0;
+  color: #fff;
+  background-color: #fed136;
+}
+
+.page .navbar-default .navbar-nav > .active > a:hover,
+.page .navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  /*background-color: #fec503;*/
+  opacity: 0.95;
+}
+@media (min-width: 768px) {
+
+  .page .navbar-default {
+    padding: 25px 0;
+    border: 0;
+    background-color: transparent;
+    transition: padding .3s;
+  }
+
+  .page .navbar-default .navbar-brand {
+    font-size: 2em;
+    transition: all .3s;
+  }
+
+  .page .navbar-default .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+
+  .page .navbar-default.navbar-shrink {
+    padding: 10px 0;
+    background-color: #222;
+  }
+
+  .page .navbar-default.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+.page header {
+  text-align: center;
+  color: #fff;
+  background-attachment: scroll;
+  background-image: url(../img/header-bg.jpg);
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.page header .intro-text {
+  padding-bottom: 50px;
+}
+
+.page header .intro-text .intro-lead-in {
+  margin-bottom: 25px;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+}
+
+.page header .intro-text .intro-heading {
+  margin-bottom: 25px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+}
+@media (min-width: 768px) {
+
+  .page header .intro-text {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  .page header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+  }
+
+  .page header .intro-text .intro-heading {
+    margin-bottom: 50px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+  }
+}
+
+.page section {
+  padding: 100px 0;
+}
+
+.page .section-heading h1,
+.page .section-heading h2,
+.page .section-heading h3,
+.page .section-heading h4,
+.page .section-heading h5,
+.page .section-heading h6,
+.page .section-heading p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.page section h3.section-subheading {
+  margin-bottom: 75px;
+  text-transform: none;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+
+  .page section {
+    padding: 150px 0;
+  }
+}
+
+.page .service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+
+.page aside.clients img {
+  margin: 50px auto;
+}
+
+.page section.contact {
+  background-color: #222;
+  background-image: url(../img/map-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page section.contact .section-heading {
+  color: #fff;
+}
+
+/*.page section.contact .form-group {
+  margin-bottom: 25px;
+}*/
+
+/*.page section.contact .form-group input,
+.page section.contact .form-group textarea {
+  padding: 20px;
+}*/
+
+.page section.contact .form-group input.form-control {
+  height: auto;
+}
+
+.page section.contact .form-group textarea.form-control {
+  height: 236px;
+}
+
+.page section.contact .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+
+/*.page section.contact::-webkit-input-placeholder {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: #bbb;
+}
+
+.page section.contact:-moz-placeholder {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: #bbb;
+}
+
+.page section.contact::-moz-placeholder {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: #bbb;
+}
+
+.page section.contact:-ms-input-placeholder {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: #bbb;
+}*/
+
+/*.page section.contact .text-danger {
+  color: #e74c3c;
+}*/
+
+.page footer {
+  padding: 25px 0;
+  text-align: center;
+}
+
+.page footer span.copyright {
+  text-transform: none;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 40px;
+}
+
+.page footer ul.quicklinks {
+  margin-bottom: 0;
+  text-transform: none;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 40px;
+}
+
+.page .btn:focus,
+.page .btn:active,
+.page .btn.active,
+.page .btn:active:focus {
+  outline: 0;
+}
+
+.page ::-moz-selection {
+  text-shadow: none;
+  background: #fed136;
+}
+
+.page ::-moz-selection {
+  text-shadow: none;
+  background: #fed136;
+}
+.page ::selection {
+  text-shadow: none;
+  background: #fed136;
+}
+
+.page img::-moz-selection {
+  background: 0 0;
+}
+.page img::selection {
+  background: 0 0;
+}
+
+.page img::-moz-selection {
+  background: 0 0;
+}
+
+body .page {
+  webkit-tap-highlight-color: #fed136;
+}
+
+/*
+ * CSS customization for Rockett
+ * Change carefully to not mess the editor-sidebar, preferably using modules selectors
+ */
+
+/* Add the offset for the navbar do not go on top of the editor sidebar when on editor */
+[ng-app] + .page > .navbar {
+  left: initial;
+  width: calc(100% - 289px);
+}
+
+/* Add some padding to prevent lines of modules go over each other when editing */
+.page [data-module="row"], .page [data-module="col"] {
+  padding: 10px;
+}
+.page [data-module="container"]{
+  padding: 10px;
+  padding-top: 20px;
+}
+
+/* Fixes the position of the .module-action buttons, otherwise the navbar will be on top of it*/
+.page [data-module="container"][data-module-activated="true"]:first-child:hover > .module-action{
+  top: 100px;
+}
+
+.page [data-module="content-contact-form"] .form-group input,
+.page [data-module="content-contact-form"] .form-group textarea {
+  padding: 12px;
+}
+
+@media (min-width: 768px) {
+
+  .page .navbar-default.on {
+    padding: 10px 0;
+    background-color: #222;
+  }
+
+  .page .navbar-default.on .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+/* Prevents the container from going under navbar when container are deleted */
+.page [data-module="container"]:first-child > .overlay > .container > [data-module="row"]:first-child,
+.page [data-drop="true"] + [data-module="container"]:nth-child(2) > .overlay > .container > [data-drop="true"] + [data-module="row"]:nth-child(2),
+.page [data-module="container"]:first-child > .container > [data-module="row"]:first-child,
+.page [data-drop="true"] + [data-module="container"]:nth-child(2) > .container > [data-drop="true"] + [data-module="row"]:nth-child(2),
+.page [data-module="container"]:first-child > [data-module="row"]:first-child,
+.page [data-drop="true"] + [data-module="container"]:nth-child(2) > [data-drop="true"] + [data-module="row"]:nth-child(2){
+  margin-top: 100px;
+}
+
+.page .navbar-default .navbar-nav .dropdown-menu > li > a:hover,
+.page .navbar-default .navbar-nav .dropdown-menu > li > a:focus{
+  background-color: transparent;
+}
+
+.page .navbar-default .navbar-nav .dropdown-menu > li > a{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.page .navbar-default .navbar-nav .dropdown-menu{
+  border: none;
+}
